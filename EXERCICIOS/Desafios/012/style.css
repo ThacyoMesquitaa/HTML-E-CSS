@@ -55,10 +55,26 @@ section.imagem{
 background-color: rgb(59, 58, 58);
 color: white;
 display: inline-block;
+width: 100%;
+box-shadow: inset 6px 6px 13px 0px black;
+background-attachment:fixed ;
 }
+section#img{
+    background-image: url("imagens/background001.jpg");background-repeat: no-repeat;background-size: cover;
+    background-position: right, center;
+}
+section#img2{
+    background-image: url("imagens/background002.jpg");background-repeat: no-repeat;background-size: cover;
+}
+
+
 section.imagem p{
     background-color: rgba(0, 0, 0, 0.53);
     width: 400px;
+    text-shadow: 1px 1px 0px black;
+}
+section p {
+    padding: 1em; 
 }
 footer{
     background-color: black;
