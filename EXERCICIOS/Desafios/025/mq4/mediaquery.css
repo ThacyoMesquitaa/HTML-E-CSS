@@ -1,0 +1,28 @@
+@charset "UTF 8";
+/* versão impressora*/
+
+@media screen and (max-width: 900px) and (min-width: 667px) {
+    body{
+        background-image: url(imagens/back-tablet.jpg);
+    }
+    #phone{display: none;}
+    #tablet{display: block;
+            margin: auto;}
+    #print{display: none;}
+    #pc{display: none;}
+    #tv{display: none;}
+
+}
+@media screen and (max-width:1680px) and (min-width:769px) {
+    body{
+        background-image: url(imagens/back-pc.jpg);
+    }
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: none;}
+    #pc{display: block;
+        margin: auto;}
+    #tv{display: none;}
+    
+}
+   
